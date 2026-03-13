@@ -1,0 +1,411 @@
+{
+  "config": {
+    "max_budget": 2000000,
+    "evaluation": "index_based"
+  },
+  "retrieval_params": {
+    "extended_k": 30000
+  },
+  "results": {
+    "poma_openai_chunksets": {
+      "n_answered": 20,
+      "n_total": 20,
+      "questions": {
+        "UID0060": {
+          "min_budget": 69757,
+          "passed": true
+        },
+        "UID0169": {
+          "min_budget": 185085,
+          "passed": true
+        },
+        "UID0184": {
+          "min_budget": 4440,
+          "passed": true
+        },
+        "UID0176": {
+          "min_budget": 5064,
+          "passed": true
+        },
+        "UID0009": {
+          "min_budget": 10049,
+          "passed": true
+        },
+        "UID0052": {
+          "min_budget": 9959,
+          "passed": true
+        },
+        "UID0066": {
+          "min_budget": 5053,
+          "passed": true
+        },
+        "UID0038": {
+          "min_budget": 4936,
+          "passed": true
+        },
+        "UID0225": {
+          "min_budget": 4746,
+          "passed": true
+        },
+        "UID0206": {
+          "min_budget": 4761,
+          "passed": true
+        },
+        "UID0059": {
+          "min_budget": 50055,
+          "passed": true
+        },
+        "UID0095": {
+          "min_budget": 284824,
+          "passed": true
+        },
+        "UID0163": {
+          "min_budget": 10077,
+          "passed": true
+        },
+        "UID0036": {
+          "min_budget": 69757,
+          "passed": true
+        },
+        "UID0042": {
+          "min_budget": 4956,
+          "passed": true
+        },
+        "UID0165": {
+          "min_budget": 220049,
+          "passed": true
+        },
+        "UID0073": {
+          "min_budget": 5046,
+          "passed": true
+        },
+        "UID0159": {
+          "min_budget": 339671,
+          "passed": true
+        },
+        "UID0064": {
+          "min_budget": 54976,
+          "passed": true
+        },
+        "UID0017": {
+          "min_budget": 4978,
+          "passed": true
+        }
+      },
+      "accuracy_curve": {
+        "5000": 0.45,
+        "10000": 0.6,
+        "25000": 0.6,
+        "50000": 0.65,
+        "100000": 0.8,
+        "250000": 0.9,
+        "500000": 1.0,
+        "1000000": 1.0,
+        "2000000": 1.0
+      }
+    },
+    "poma_openai_mixed": {
+      "n_answered": 20,
+      "n_total": 20,
+      "questions": {
+        "UID0060": {
+          "min_budget": 39991,
+          "passed": true
+        },
+        "UID0169": {
+          "min_budget": 250002,
+          "passed": true
+        },
+        "UID0184": {
+          "min_budget": 4440,
+          "passed": true
+        },
+        "UID0176": {
+          "min_budget": 4740,
+          "passed": true
+        },
+        "UID0009": {
+          "min_budget": 9876,
+          "passed": true
+        },
+        "UID0052": {
+          "min_budget": 19723,
+          "passed": true
+        },
+        "UID0066": {
+          "min_budget": 5053,
+          "passed": true
+        },
+        "UID0038": {
+          "min_budget": 4936,
+          "passed": true
+        },
+        "UID0225": {
+          "min_budget": 4881,
+          "passed": true
+        },
+        "UID0206": {
+          "min_budget": 4640,
+          "passed": true
+        },
+        "UID0059": {
+          "min_budget": 54677,
+          "passed": true
+        },
+        "UID0095": {
+          "min_budget": 225091,
+          "passed": true
+        },
+        "UID0163": {
+          "min_budget": 9817,
+          "passed": true
+        },
+        "UID0036": {
+          "min_budget": 55099,
+          "passed": true
+        },
+        "UID0042": {
+          "min_budget": 4956,
+          "passed": true
+        },
+        "UID0165": {
+          "min_budget": 184821,
+          "passed": true
+        },
+        "UID0073": {
+          "min_budget": 4689,
+          "passed": true
+        },
+        "UID0159": {
+          "min_budget": 239292,
+          "passed": true
+        },
+        "UID0064": {
+          "min_budget": 49713,
+          "passed": true
+        },
+        "UID0017": {
+          "min_budget": 4990,
+          "passed": true
+        }
+      },
+      "accuracy_curve": {
+        "5000": 0.45,
+        "10000": 0.55,
+        "25000": 0.6,
+        "50000": 0.7,
+        "100000": 0.8,
+        "250000": 1.0,
+        "500000": 1.0,
+        "1000000": 1.0,
+        "2000000": 1.0
+      }
+    },
+    "databricks_rcs_openai": {
+      "n_answered": 20,
+      "n_total": 20,
+      "questions": {
+        "UID0060": {
+          "min_budget": 220089,
+          "passed": true
+        },
+        "UID0169": {
+          "min_budget": 25025,
+          "passed": true
+        },
+        "UID0184": {
+          "min_budget": 39859,
+          "passed": true
+        },
+        "UID0176": {
+          "min_budget": 4937,
+          "passed": true
+        },
+        "UID0009": {
+          "min_budget": 4765,
+          "passed": true
+        },
+        "UID0052": {
+          "min_budget": 1250070,
+          "passed": true
+        },
+        "UID0066": {
+          "min_budget": 4691,
+          "passed": true
+        },
+        "UID0038": {
+          "min_budget": 239796,
+          "passed": true
+        },
+        "UID0225": {
+          "min_budget": 19786,
+          "passed": true
+        },
+        "UID0206": {
+          "min_budget": 9841,
+          "passed": true
+        },
+        "UID0059": {
+          "min_budget": 110000,
+          "passed": true
+        },
+        "UID0095": {
+          "min_budget": 9793,
+          "passed": true
+        },
+        "UID0163": {
+          "min_budget": 1449707,
+          "passed": true
+        },
+        "UID0036": {
+          "min_budget": 1159711,
+          "passed": true
+        },
+        "UID0042": {
+          "min_budget": 4898,
+          "passed": true
+        },
+        "UID0165": {
+          "min_budget": 1139778,
+          "passed": true
+        },
+        "UID0073": {
+          "min_budget": 69659,
+          "passed": true
+        },
+        "UID0159": {
+          "min_budget": 10032,
+          "passed": true
+        },
+        "UID0064": {
+          "min_budget": 4837,
+          "passed": true
+        },
+        "UID0017": {
+          "min_budget": 4695,
+          "passed": true
+        }
+      },
+      "accuracy_curve": {
+        "5000": 0.3,
+        "10000": 0.45,
+        "25000": 0.55,
+        "50000": 0.6,
+        "100000": 0.65,
+        "250000": 0.8,
+        "500000": 0.8,
+        "1000000": 0.8,
+        "2000000": 1.0
+      }
+    },
+    "unstructured_openai": {
+      "n_answered": 20,
+      "n_total": 20,
+      "questions": {
+        "UID0060": {
+          "min_budget": 19940,
+          "passed": true
+        },
+        "UID0169": {
+          "min_budget": 1475025,
+          "passed": true
+        },
+        "UID0184": {
+          "min_budget": 20042,
+          "passed": true
+        },
+        "UID0176": {
+          "min_budget": 5067,
+          "passed": true
+        },
+        "UID0009": {
+          "min_budget": 20061,
+          "passed": true
+        },
+        "UID0052": {
+          "min_budget": 535043,
+          "passed": true
+        },
+        "UID0066": {
+          "min_budget": 205033,
+          "passed": true
+        },
+        "UID0038": {
+          "min_budget": 54992,
+          "passed": true
+        },
+        "UID0225": {
+          "min_budget": 209960,
+          "passed": true
+        },
+        "UID0206": {
+          "min_budget": 550032,
+          "passed": true
+        },
+        "UID0059": {
+          "min_budget": 464873,
+          "passed": true
+        },
+        "UID0095": {
+          "min_budget": 10010,
+          "passed": true
+        },
+        "UID0163": {
+          "min_budget": 5051,
+          "passed": true
+        },
+        "UID0036": {
+          "min_budget": 560099,
+          "passed": true
+        },
+        "UID0042": {
+          "min_budget": 84950,
+          "passed": true
+        },
+        "UID0165": {
+          "min_budget": 374973,
+          "passed": true
+        },
+        "UID0073": {
+          "min_budget": 20011,
+          "passed": true
+        },
+        "UID0159": {
+          "min_budget": 219963,
+          "passed": true
+        },
+        "UID0064": {
+          "min_budget": 859997,
+          "passed": true
+        },
+        "UID0017": {
+          "min_budget": 850083,
+          "passed": true
+        }
+      },
+      "accuracy_curve": {
+        "5000": 0.1,
+        "10000": 0.15,
+        "25000": 0.35,
+        "50000": 0.35,
+        "100000": 0.45,
+        "250000": 0.6,
+        "500000": 0.7,
+        "1000000": 0.95,
+        "2000000": 1.0
+      }
+    }
+  },
+  "report_budgets": [
+    5000,
+    10000,
+    25000,
+    50000,
+    100000,
+    250000,
+    500000,
+    1000000,
+    2000000
+  ],
+  "timestamp": "2026-03-11T00:00:16.772539"
+}
