@@ -2263,7 +2263,7 @@
             "poma": [
               {
                 "doc": "treasury_bulletin_1982_03",
-                "local_id": 500
+                "local_id": 611
               }
             ],
             "db_txt": [
@@ -2287,12 +2287,13 @@
             "poma": [
               {
                 "doc": "treasury_bulletin_1982_03",
-                "local_id": 500,
+                "local_id": 611,
                 "needles_found": [
                   "80579",
                   "58860"
                 ],
-                "full_content": "United States Treasury Bulletin March 1982 Fiscal and Debt Operations Summary\n[…]\nACCOUNT OF THE U.S. TREASURY\nSource and Availability of the Balance in the Account of the U.S. Treasury\n[…]\nTable FD-1.\n[…]\n- Interest-Bearing Securities Issued by Government Agencies\n[…]\n<table><tbody><tr><td rowspan=\"2\">End of fiscal year or month</td><td colspan=\"8\">Memorandum - Interest-bearing securities of non-Government agencies 2/</td></tr><tr data-ellipsis=\"leading\"><td colspan=\"999\">[…]</td></tr><tr><td>Aug.</td><td>220</td><td>73,566</td><td>1,388</td><td>10,317</td><td>58,306</td><td>56,372</td><td>-</td><td></td></tr><tr><td>Sept.</td><td>220</td><td>76,799</td><td>1,388</td><td>10,317</td><td>59,024</td><td>56,688</td><td>-</td><td></td></tr><tr><td>Oct.</td><td>220</td><td>76,729</td><td>1,388</td><td>9,277</td><td>60,111</td><td>57,805</td><td>-</td><td></td></tr><tr><td>Nov.</td><td>220</td><td>77,460</td><td>1,388</td><td>9,717</td><td>60,191</td><td>58,533</td><td>-</td><td></td></tr><tr><td>Dec.</td><td>220</td><td>79,803</td><td>1,388</td><td>9,717</td><td>60,036</td><td>58,749</td><td>-</td><td></td></tr><tr><td>1982-Jan.</td><td>220</td><td>80,579</td><td>1,388</td><td>8,717</td><td>61,187</td><td>58,860</td><td>-</td><td></td></tr></tbody></table>"
+                "full_content": "United States Treasury Bulletin March 1982 Fiscal and Debt Operations Summary\n[…]\nACCOUNT OF THE U.S. TREASURY\nSource and Availability of the Balance in the Account of the U.S. Treasury\n[…]\nTable FD-1.\n[…]\n- Interest-Bearing Securities Issued by Government Agencies\n[…]\n<table><tbody><tr><td rowspan=\"2\">End of fiscal year or month</td><td colspan=\"8\">Memorandum - Interest-bearing securities of non-Government agencies 2/</td></tr><tr data-ellipsis=\"leading\"><td colspan=\"999\">[…]</td></tr><tr><td>Aug.</td><td>220</td><td>73,566</td><td>1,388</td><td>10,317</td><td>58,306</td><td>56,372</td><td>-</td><td></td></tr><tr><td>Sept.</td><td>220</td><td>76,799</td><td>1,388</td><td>10,317</td><td>59,024</td><td>56,688</td><td>-</td><td></td></tr><tr><td>Oct.</td><td>220</td><td>76,729</td><td>1,388</td><td>9,277</td><td>60,111</td><td>57,805</td><td>-</td><td></td></tr><tr><td>Nov.</td><td>220</td><td>77,460</td><td>1,388</td><td>9,717</td><td>60,191</td><td>58,533</td><td>-</td><td></td></tr><tr><td>Dec.</td><td>220</td><td>79,803</td><td>1,388</td><td>9,717</td><td>60,036</td><td>58,749</td><td>-</td><td></td></tr><tr><td>1982-Jan.</td><td>220</td><td>80,579</td><td>1,388</td><td>8,717</td><td>61,187</td><td>58,860</td><td>-</td><td></td></tr></tbody></table>",
+                "_audit_note": "Label fixed 2026-05-15 by poma-grill bench audit. Original local_id=500 did not contain needles ['80579','58860'] (verified after comma/$/space normalization); cs=611 contains both."
               }
             ],
             "db_txt": [
@@ -3012,7 +3013,7 @@
             "poma": [
               {
                 "doc": "treasury_bulletin_1982_03",
-                "local_id": 933
+                "local_id": 1045
               }
             ],
             "db_txt": [
@@ -3032,13 +3033,14 @@
             "poma": [
               {
                 "doc": "treasury_bulletin_1982_03",
-                "local_id": 933,
+                "local_id": 1045,
                 "needles_found": [
                   "12,57",
                   "12,62"
                 ],
                 "full_content": "Table MQ-1 Treasury Bills - February 26 1982 quotations. Row: 6/10/82 maturity, bank discount 12,57. Row: 6/17/82 maturity, bank discount 12,62. (POMA uses comma as decimal separator)",
-                "_note": "POMA uses comma-decimal format (12,57 not 12.57). Values verified present."
+                "_note": "POMA uses comma-decimal format (12,57 not 12.57). Values verified present.",
+                "_audit_note": "Label fixed 2026-05-15 by poma-grill bench audit. Original local_id=933 did not contain needles ['12,57','12,62']; cs=1045 ('MARKET QUOTATIONS ON TREASURY SECURITIES. FEBRUARY 26, 1982 / Table MQ-1 / Treasury Bills') contains both. cs=252 was a numeric-coincidence false positive in unrelated table FFO-4."
               }
             ],
             "db_txt": [
