@@ -112,6 +112,7 @@ Sum of per-question minimum budgets (how much context you "buy" in aggregate). T
 - **Documents:** 14 U.S. Treasury Bulletins (1939-2020), ~2,150 pages
 - **Questions:** 20 table-lookup questions from [OfficeQA](https://github.com/databricks/officeqa)
 - **Source:** [FRASER Digital Library](https://fraser.stlouisfed.org/title/treasury-bulletin-407)
+- **Licensing:** questions, answers and the `data/databricks/` text files are from Databricks OfficeQA under CC BY-SA 4.0, not MIT. See [`data/NOTICE.md`](data/NOTICE.md).
 
 ### Methods Compared
 

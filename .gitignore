@@ -53,3 +53,4 @@ vectors/unstructured_elements.npz
 # Temp/cleanup artifacts
 ..bfg-report/
 CLAUDE.local.md
+events.jsonl
